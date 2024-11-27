@@ -18,3 +18,23 @@ document.addEventListener("DOMContentLoaded", () => {
     pinkButton.classList.add("active");
   });
 });
+
+/*document.addEventListener('DOMContentLoaded', () => {
+   let buttons = document.querySelectorAll('button');
+
+   for (let button of buttons) {
+       button.addEventListener('click', (e) => {
+
+          let pinkBtn = document.querySelector('#pinkTabButton');
+          let blueBtn = document.querySelector('#blueTabButton');
+          let pinkTab = document.querySelector('#pinkTab');
+          let blueTab = document.querySelector('#blueTab');
+
+          pinkBtn.classList.toggle('active');
+          blueBtn.classList.toggle('active');
+          blueTab.classList.toggle('active');
+          pinkTab.classList.toggle('active');
+
+       });
+   }
+});*/
