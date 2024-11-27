@@ -18,13 +18,13 @@ let ingredientsList = document.getElementById("ingredients");
 let stepsList = document.getElementById("steps");
 
 recipe.ingredients.forEach((ingredient) => {
-  const li = document.createElement("li");
+  let li = document.createElement("li");
   li.textContent = ingredient;
   ingredientsList.appendChild(li);
 });
 
 recipe.steps.forEach((step) => {
-  const li = document.createElement("li");
+  let li = document.createElement("li");
   li.textContent = step;
   stepsList.appendChild(li);
 });
